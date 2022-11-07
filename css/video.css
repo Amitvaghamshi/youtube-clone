@@ -1,0 +1,40 @@
+#container{
+    display: flex;
+ 
+}
+#video_details{
+    flex: 6;
+    height: 100vh;
+    position: fixed;
+    top: 70px;
+    width: 69%; 
+}
+#recommendations{
+    margin-top: 70px;
+    flex: 3;
+    width: 30%;
+    position: static;
+    margin-left: 70%;
+    
+}
+#container >div:nth-child(2){
+   height: auto;
+   width: 30%;
+   position: static;
+   right: 0px;
+   
+}
+#recommendations >p:first-child{
+    height: 20px;
+    text-align: center;
+    font-size: 23px;
+    margin-top: 0px;
+    color: rgb(70, 86, 86);
+    font-weight: 600;
+}
+#recommendations p{
+    padding-left: 20px;
+    font-size: 20px;
+    border-left: 2px solid rgb(53, 59, 53);
+}
+
